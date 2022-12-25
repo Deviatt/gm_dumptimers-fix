@@ -4,6 +4,7 @@ A half of GMOD servers are in danger now only because of lua_dumptimers_sv conco
 
 Deviatt has found an issue and made the fix for it.
 
+Add also method 'garrysmod/cfg/server.cfg' (Method without working with the engine. Not recommended). Thx daddy Beelzebub#0281 :)
 # Installation
 1. Create 'bin' dir inside your 'lua' dir.
 2. Move your 'gmsv_dumptimers_fix_*.dll' into it.
