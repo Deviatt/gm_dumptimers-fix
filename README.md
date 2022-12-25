@@ -10,6 +10,11 @@ Deviatt has found an issue and made the fix for it.
 3. Create a lua file inside 'lua/autorun/server/' with 'require("dumptimers_fix")'
 4. Enjoy!
 
+# Problem
+Compiled binaries are not ready for CentOS and have newest C++ version (so C++ < 6 isn't working)
+
+Fixing that issue.
+
 # Build
 Don't forget to use this library when compiling: https://github.com/danielga/garrysmod_common
 
