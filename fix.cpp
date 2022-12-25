@@ -1,6 +1,5 @@
 #include <GarrysMod/Lua/Interface.h>
 #include <GarrysMod/Interfaces.hpp>
-
 #include <icvar.h>
 
 static SourceSDK::FactoryLoader icvar_loader("vstdlib", true, IS_SERVERSIDE, "bin/");
