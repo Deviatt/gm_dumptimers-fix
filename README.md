@@ -1,4 +1,4 @@
-# gmsv_dumptimers_fix
+# gmsv_dumptimers_fix - The clearest way to remove lua_dumptimers_sv
 
 A half of GMOD servers are in danger now only because of lua_dumptimers_sv concommand.
 
