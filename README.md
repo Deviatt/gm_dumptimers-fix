@@ -15,6 +15,8 @@ Compiled binaries are not ready for CentOS and have newest C++ version (so C++ <
 
 Fixing that issue.
 
+ALSO: This won't work on the client, don't even try running that on you Garry's Mod instance, these dll's are compiled to work ONLY on SRCDS.
+
 # Build
 Don't forget to use this library when compiling: https://github.com/danielga/garrysmod_common
 
