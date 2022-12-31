@@ -1,30 +1,25 @@
 # gm_dumptimers-fix - The clearest way to remove lua_dumptimers_sv
-
-A half of GMOD servers are in danger now only because of lua_dumptimers_sv concommand.
-
+Alot of servers now are in danger now only because of `lua_dumptimers_sv` concommand is exploitable.  
+`lua_dumptimers_sv` allows freeze server just via running console commands on client-side.  
 Deviatt has found an issue and made the fix for it.
 
-Added also method 'garrysmod/cfg/server.cfg' (Method without working with the engine. Not recommended). Thx daddy Beelzebub#0281 :)
-# Installation
-1. Create 'bin' dir inside your 'lua' dir.
-2. Move your 'gmsv_dumptimers_fix_*.dll' into it.
-3. Create a lua file inside 'lua/autorun/server/' with 'require("dumptimers_fix")'
-4. Enjoy!
+## Installation:
+1. Make a `bin` dir in your `garrysmod/lua/`.
+2. Download a binary `gmsv_dumptimers_fix_?.dll` from [releases](https://github.com/Deviatt/gm_dumptimers-fix/releases) & move it in your `garrysmod/lua/bin/`
+3. Download [gm_dumptimers-fix.lua](https://github.com/Deviatt/gm_dumptimers-fix/blob/main/garrysmod/lua/autorun/server/gm_dumptimers-fix.lua) & move it in `garrysmod/lua/autorun/server/`.
+4. Configure [gm_dumptimers-fix.lua](https://github.com/Deviatt/gm_dumptimers-fix/blob/main/garrysmod/lua/autorun/server/gm_dumptimers-fix.lua) on lines 3-5 if you dont wanna punish/log exploiters.
+5. Enjoy a server that is no longer affected by this exploit!
 
-# Problem
+## Issues:
 Compiled binaries are not ready for CentOS and have newest C++ version (so C++ < 6 isn't working)
 
-Fixing that issue.
+## Notes:
+This is serverside module, do not try to run it on your Garry's Mod instance, its compiled to work only in SRCDS.
 
-ALSO: This won't work on the client, don't even try running that on you Garry's Mod instance, these dll's are compiled to work ONLY on SRCDS.
+## Build:
+Don't forget to install [garrysmod_common](https://github.com/danielga/garrysmod_common), this fix depends on it.
 
-# Build
-Don't forget to use this library when compiling: https://github.com/danielga/garrysmod_common
-
-# Links
-
-Discord - Deviatt#5010
-
-Discord server - https://discord.gg/FnhSJcAJcB
-
-Fix commit - https://commits.facepunch.com/379763
+## Links:
+Discord: Deviatt#5010  
+Discord server: https://discord.gg/FnhSJcAJcB  
+Fix commit: https://commits.facepunch.com/379763
