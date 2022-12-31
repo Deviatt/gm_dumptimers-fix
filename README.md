@@ -1,5 +1,5 @@
 # gm_dumptimers-fix - The clearest way to remove lua_dumptimers_sv
-Alot of servers now are in danger now only because of `lua_dumptimers_sv` concommand is exploitable.  
+Alot of servers now are in danger now, because of `lua_dumptimers_sv` concommand is exploitable.  
 `lua_dumptimers_sv` allows freeze server just via running console commands on client-side.  
 Deviatt has found an issue and made the fix for it.
 
