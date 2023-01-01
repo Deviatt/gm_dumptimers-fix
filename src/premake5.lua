@@ -11,4 +11,4 @@ include(assert(_OPTIONS.gmcommon or os.getenv("GARRYSMOD_COMMON"), "you didn't p
 CreateWorkspace {name = "dumptimers_fix"}
     CreateProject {serverside = true}
         IncludeSDKCommon()
-        files {"fix.cpp"}
+        files {"src/fix.cpp"}
