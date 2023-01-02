@@ -1,8 +1,8 @@
 require("dumptimers_fix")
 
-local punish = true -- ban people that try to use this exploit?
+local punish = false -- ban people that try to use this exploit?
 local punish_time = 0 -- 0 = infinitie, 1 = minute, 60 = hour, e.t.c
-local log = true -- log people that try to use this exploit?
+local log = false -- log people that try to use this exploit?
 
 if (punish or log) == false then concommand.Remove("lua_dumptimers_sv") return end
 
