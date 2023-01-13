@@ -6,7 +6,7 @@ Alot of servers now are in danger now, because `lua_dumptimers_sv` concommand ar
 1. Make a `bin` dir in your `garrysmod/lua/`.
 2. Download a binary `gmsv_dumptimers_fix_?.dll` from [releases](https://github.com/Deviatt/gm_dumptimers-fix/releases) & move it in your `garrysmod/lua/bin/`
 3. Download [gm_dumptimers-fix.lua](https://github.com/Deviatt/gm_dumptimers-fix/blob/main/garrysmod/lua/autorun/server/gm_dumptimers-fix.lua) & move it in `garrysmod/lua/autorun/server/`.
-4. Configure [gm_dumptimers-fix.lua](https://github.com/Deviatt/gm_dumptimers-fix/blob/main/garrysmod/lua/autorun/server/gm_dumptimers-fix.lua) on lines 3-5 if you dont wanna punish/log exploiters.
+4. Configure [gm_dumptimers-fix.lua](https://github.com/Deviatt/gm_dumptimers-fix/blob/main/garrysmod/lua/autorun/server/gm_dumptimers-fix.lua) on lines 3-5 if you wanna punish/log exploiters.
 5. Enjoy a server that is no longer affected by this exploit!
 
 ## Issues:
