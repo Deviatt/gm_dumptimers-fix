@@ -12,7 +12,7 @@ Alot of servers now are in danger now, because `lua_dumptimers_sv` concommand ar
 Compiled binaries are not ready for CentOS and have newest C++ version (so C++ < 6 isn't working)
 
 ## Notes:
-This is serverside module, do not try to run it on your Garry's Mod instance, its compiled to work only in SRCDS.
+-
 
 ## Build:
 Don't forget to install [garrysmod_common](https://github.com/danielga/garrysmod_common), this fix depends on it.

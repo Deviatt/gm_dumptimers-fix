@@ -26,11 +26,12 @@ SOFTWARE.
 
 #include <GarrysMod/Lua/Interface.h>
 #include <GarrysMod/Interfaces.hpp>
+#include <GarrysMod/InterfacePointers.hpp>
 
 #include <icvar.h>
 
 GMOD_MODULE_OPEN() {
-	ICvar *icvar = SourceSDK::FactoryLoader("vstdlib", true, IS_SERVERSIDE, "bin/").GetInterface<ICvar>(CVAR_INTERFACE_VERSION);
+	ICvar *icvar = InterfacePointers::Cvar();
 	ConCommandBase *lua_dumptimers_sv = icvar->FindCommandBase("lua_dumptimers_sv");
 	if (lua_dumptimers_sv) icvar->UnregisterConCommand(lua_dumptimers_sv);
 	return 0;
