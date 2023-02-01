@@ -9,7 +9,7 @@ Alot of servers now are in danger now, because `lua_dumptimers_sv` concommand ar
 4. Enjoy a server that is no longer affected by this exploit!
 
 ## Issues:
-Compiled binaries are not ready for CentOS and have newest C++ version (so C++ < 6 isn't working)
+Compiled binaries are not ready for CentOS and should have newest C++ version install (because C++ < 6 isn't working)
 
 ## Notes:
 -
