@@ -8,11 +8,10 @@ Alot of servers now are in danger now, because `lua_dumptimers_sv` concommand ar
 3. Download [gm_dumptimers-fix.lua](https://github.com/Deviatt/gm_dumptimers-fix/blob/main/garrysmod/lua/autorun/server/gm_dumptimers-fix.lua) & move it in `garrysmod/lua/autorun/server/`.
 4. Enjoy a server that is no longer affected by this exploit!
 
-## Issues:
-Compiled binaries are not ready for CentOS and should have newest C++ version install (because C++ < 6 isn't working)
-
 ## Notes:
--
+- Compiled binaries are not ready for CentOS and should have newest C++ version install (because C++ < 6 isn't working)
+- PLib is not working well with this fix.
+- Rubat fixed this issue on dev-branch already.
 
 ## Build:
 Don't forget to install [garrysmod_common](https://github.com/danielga/garrysmod_common), this fix depends on it.
