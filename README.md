@@ -10,7 +10,7 @@ Alot of servers now are in danger now, because `lua_dumptimers_sv` concommand ar
 
 ## Notes:
 - Compiled binaries are not ready for CentOS and should have newest C++ version install (because C++ < 6 isn't working)
-- PLib is not working well with this fix.
+- [dash/plib](https://github.com/SuperiorServers/dash) is not working well with this fix.
 - Rubat fixed this issue on dev-branch already.
 
 ## Build:
